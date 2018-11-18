@@ -17,3 +17,7 @@ Cocktail.create(name: "Cuba Libre")
 Cocktail.create(name: "Mojito")
 Cocktail.create(name: "Old Fashioned")
 
+url = "http://static.giantbomb.com/uploads/original/9/99864/2419866-nes_console_set.png"
+cocktail = Cocktail.new(name: 'NES', photo: "A great console")
+cocktail.remote_photo_url = url
+cocktail.save
